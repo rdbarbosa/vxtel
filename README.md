@@ -13,7 +13,7 @@ No diretório dos projetos, você deve executar:
 Acessar a pasta vxtel.api e excutar o BackEnd utilizando o Visual Studio ou o commando `dotnet run --project VxTel.App`.
 Executa a aplicação na porta 5000 e 5001
 
-Depois acessar a pasta vxtel.web e executar um dos comandos abaixo
+Depois acessar a pasta web e executar um dos comandos abaixo
 
 ### `yarn start`
 
@@ -27,3 +27,7 @@ Inicia os testes
 ### `yarn build`
 
 Compila o aplicativo para produção na pasta `build`.
+
+## `Extras`
+
+Projecto está pré configurado para integrar com o sonarqube, ainda é necessário configurar os arquivos de configurações do sonar `sonar-project.js` e `sonar-project.properties`

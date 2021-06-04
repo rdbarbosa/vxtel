@@ -2,11 +2,11 @@ const sonarqubeScanner = require('sonarqube-scanner')
 
 sonarqubeScanner(
   {
-    serverUrl: 'http://localhost:9000',
-    token: 'fb6cef76d37c7196041fbc4c27df1ffa315eaa72',
+    serverUrl: '<url sonarquebe>',
+    token: '<token>',
     options: {
-      'sonar.projectKey': 'React',
-      'sonar.projectName': 'React',
+      'sonar.projectKey': '<projectKey>',
+      'sonar.projectName': '<projectName>',
       'sonar.exclusions':
         './node_modules/**,src/environments/**,**/*.spec.ts,dist/**,**/docs/**,**/*.js,e2e/**,coverage/**,TLH-distributions/**,src/bsb-theme/css/**',
       'sonar.sources': './src',
