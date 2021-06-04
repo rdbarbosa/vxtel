@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="C:\Users\Romulo\source\repos\vxtel.web\src\__tests__\Appbar.test.tsx">
+        <testCase name="Appbar loads" duration="88"/>
+    </file>
+    <file path="C:\Users\Romulo\source\repos\vxtel.web\src\__tests__\Card.test.tsx">
+        <testCase name="Card loads" duration="112"/>
+    </file>
+    <file path="C:\Users\Romulo\source\repos\vxtel.web\src\__tests__\App.test.tsx">
+        <testCase name="renders without crashing" duration="507"/>
+    </file>
+    <file path="C:\Users\Romulo\source\repos\vxtel.web\src\__tests__\simulador.test.tsx">
+        <testCase name="Simulador loads" duration="47"/>
+        <testCase name="Simulador test Simulador Call API" duration="390"/>
+        <testCase name="Simulador test Simulador Call API Error" duration="93"/>
+    </file>
+</testExecutions>
