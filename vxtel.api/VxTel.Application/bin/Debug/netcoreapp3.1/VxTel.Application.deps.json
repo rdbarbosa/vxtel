@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VxTel.Application/1.0.0": {
+        "dependencies": {
+          "VxTel.Domain": "1.0.0",
+          "VxTel.Entities": "1.0.0"
+        },
+        "runtime": {
+          "VxTel.Application.dll": {}
+        }
+      },
+      "VxTel.Domain/1.0.0": {
+        "dependencies": {
+          "VxTel.Entities": "1.0.0"
+        },
+        "runtime": {
+          "VxTel.Domain.dll": {}
+        }
+      },
+      "VxTel.Entities/1.0.0": {
+        "runtime": {
+          "VxTel.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VxTel.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VxTel.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VxTel.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

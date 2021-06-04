@@ -1,0 +1,14 @@
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Application.deps.json
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Application.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Application.pdb
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Domain.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Entities.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Domain.pdb
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\bin\Release\netcoreapp3.1\VxTel.Entities.pdb
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.csprojAssemblyReference.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.AssemblyInfoInputs.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.AssemblyInfo.cs
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.csproj.CoreCompileInputs.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.csproj.CopyComplete
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Application\obj\Release\netcoreapp3.1\VxTel.Application.pdb

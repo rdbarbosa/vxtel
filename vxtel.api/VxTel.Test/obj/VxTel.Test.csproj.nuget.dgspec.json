@@ -1,0 +1,415 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Test\\VxTel.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\VxTel.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\VxTel.Application.csproj",
+        "projectName": "VxTel.Application",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\VxTel.Application.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj"
+              },
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\VxTel.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\VxTel.App.csproj",
+        "projectName": "VxTel.App",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\VxTel.App.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\VxTel.Application.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Application\\VxTel.Application.csproj"
+              },
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj"
+              },
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj"
+              },
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\VxTel.Infra.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\VxTel.Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj",
+        "projectName": "VxTel.Domain",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj",
+        "projectName": "VxTel.Entities",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\VxTel.Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\VxTel.Infra.csproj",
+        "projectName": "VxTel.Infra",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\VxTel.Infra.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Domain\\VxTel.Domain.csproj"
+              },
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Entities\\VxTel.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Test\\VxTel.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Test\\VxTel.Test.csproj",
+        "projectName": "VxTel.Test",
+        "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Test\\VxTel.Test.csproj",
+        "packagesPath": "C:\\Users\\Romulo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Romulo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\VxTel.App.csproj": {
+                "projectPath": "C:\\Users\\Romulo\\source\\repos\\VxTel\\vxtel.api\\VxTel.App\\VxTel.App.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

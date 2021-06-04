@@ -1,0 +1,9 @@
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\bin\Release\netcoreapp3.1\VxTel.Entities.deps.json
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\bin\Release\netcoreapp3.1\VxTel.Entities.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\bin\Release\netcoreapp3.1\VxTel.Entities.pdb
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.csprojAssemblyReference.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.AssemblyInfoInputs.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.AssemblyInfo.cs
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.dll
+C:\Users\Romulo\source\repos\VxTel\vxtel.api\VxTel.Entities\obj\Release\netcoreapp3.1\VxTel.Entities.pdb
